@@ -5,14 +5,15 @@
 
 nav {
 	display: flex;
+	align-items: center;
 }
 
 .nav-links {
 	list-style: none;
 	display: flex;
+	align-items: center;
 	margin: 0;
 	padding: 0;
-	align-items: center;
 	flex-grow: 1;
 }
 
