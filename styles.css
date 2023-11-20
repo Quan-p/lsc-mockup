@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Futura Std', arial, helvetica, sans-serif;
+}
+
+nav {
+	display: flex;
+}
+
+.nav-links {
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+	flex-grow: 1;
+}
+
+.nav-links li {
+	margin-right: 20px;
+}
+
+.nav-links a {
+	color: #cddce9;
+	text-decoration: none;
+}
+
+.nav-links #logo img {
+	width: 70px;
+	height: 70px;
+}
+
+.search-button button {
+	color: #cbdce9;
+	background-color: #004d8a;
+	border: 1px solid #cbdce9;
+	border-radius: 50%;
+	padding: 10px;
+	height: 40px;
+	width: 40px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+}
