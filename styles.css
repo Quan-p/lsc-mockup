@@ -1,6 +1,20 @@
 * {
 	box-sizing: border-box;
-	font-family: 'Futura Std', arial, helvetica, sans-serif;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+header {
+	background: radial-gradient(
+		circle at 65% 60%,
+		#6182aa,
+		#286598,
+		#165d95,
+		#1d4d86
+	);
 }
 
 nav {
@@ -44,4 +58,39 @@ nav {
 	justify-content: center;
 	align-items: center;
 	margin-left: auto;
+}
+
+#hero {
+	display: flex;
+	justify-content: flex-start;
+	height: 60vh;
+}
+
+h1 {
+	font-weight: 800;
+	font-size: 3.5rem;
+}
+
+h1,
+h4 {
+	color: #ffffff;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.content-column {
+	padding: 20px;
+	padding-right: 0;
+}
+
+.image-column {
+	overflow: hidden;
+	flex-shrink: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.image-column img {
+	height: 100%;
+	width: 65%;
+	object-fit: cover;
 }
