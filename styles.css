@@ -160,6 +160,7 @@ h2 {
 	border: 1px solid #dddddd;
 	border-radius: 15px;
 	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+	height: 100%;
 }
 
 .img-container {
@@ -187,6 +188,8 @@ h6 {
 .testimony {
 	padding: 20px;
 	color: #5a5a5a;
+	margin: 0;
+	font-size: 1.3rem;
 }
 
 .reference-column img {
