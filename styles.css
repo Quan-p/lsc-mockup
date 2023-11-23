@@ -228,7 +228,13 @@ h6 {
 }
 
 #program-content {
-	margin: 3em 5em 3em 5em;
+	margin: 3em 5em 0 5em;
+}
+
+#program-content h3 {
+	color: #000000;
+	text-shadow: none;
+	font-weight: 400;
 }
 
 .semester-table {
@@ -276,4 +282,54 @@ td {
 .total-header {
 	text-align: left;
 	padding: 0.5em 1em;
+}
+
+.table-footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2em 0 2.5em 0.2em;
+}
+
+.left-content {
+	display: flex;
+	align-items: center;
+}
+
+.left-content button {
+	border: 1px solid #00335c;
+	background-color: #0067a5;
+	color: #ffffff;
+	padding: 0.5em 1.5em;
+	border-radius: 8px;
+	font-size: 1.1rem;
+	font-weight: 800;
+}
+
+.right-content {
+	display: flex;
+	justify-content: right;
+}
+
+.right-content div {
+	padding: 0.7em;
+}
+
+.hour-value {
+	background-color: #0067aa;
+	border: 1px solid #707070;
+	color: #ffffff;
+	font-weight: 800;
+	font-size: 1.5rem;
+}
+
+.total-hours {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.2rem;
+	color: #0067a5;
+	border-top: 1px solid #0067aa;
+	border-bottom: 1px solid #0067aa;
+	border-right: 1px solid #0067aa;
 }
