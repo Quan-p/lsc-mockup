@@ -333,3 +333,18 @@ td {
 	border-bottom: 1px solid #0067aa;
 	border-right: 1px solid #0067aa;
 }
+
+#program-details {
+}
+
+.details-content {
+	padding: 3em 5em 0 5em;
+	background-color: #fafafa;
+}
+
+.details-content p {
+	color: #5a5a5a;
+	margin: 0;
+	padding-bottom: 1.5em;
+	font-size: 1.5rem;
+}
