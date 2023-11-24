@@ -210,13 +210,18 @@
 							placeholder="Last Name*"
 							required
 						/>
-						<input
-							type="text"
-							id="name"
-							name="name"
-							placeholder="Campus Preferences"
+						<select
+							id="campus-preferences"
+							name="campus-preferences"
 							required
-						/>
+						>
+							<option value="" disabled selected>
+								Select a campus
+							</option>
+							<option value="campus1">Campus 1</option>
+							<option value="campus2">Campus 2</option>
+							<option value="campus3">Campus 3</option>
+						</select>
 					</div>
 					<div class="form-column">
 						<input
