@@ -89,7 +89,7 @@ h4 {
 }
 
 .content-column {
-	padding: 20px;
+	padding: 2em;
 	padding-right: 0;
 }
 
@@ -332,9 +332,6 @@ td {
 	border-top: 1px solid #0067aa;
 	border-bottom: 1px solid #0067aa;
 	border-right: 1px solid #0067aa;
-}
-
-#program-details {
 }
 
 .details-content {
