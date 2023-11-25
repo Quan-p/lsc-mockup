@@ -367,6 +367,30 @@ td {
 	border: 1px solid #868686;
 }
 
+.modal h2 {
+	text-align: center;
+	font-size: 2rem;
+}
+
+.close {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 1.5rem;
+	right: 1.5rem;
+	font-size: 2rem;
+	padding: 1rem;
+	cursor: pointer;
+	background-color: #0067af;
+	height: 2.5rem;
+	width: 2.5rem;
+	color: #fbfbfb;
+	font-weight: 900;
+	border-radius: 50%;
+	border: 1px solid #003562;
+}
+
 .form {
 	display: flex;
 }
