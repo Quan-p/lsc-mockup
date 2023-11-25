@@ -37,7 +37,7 @@ nav {
 }
 
 .nav-links li {
-	margin-right: 20px;
+	margin-right: 1.5rem;
 }
 
 .nav-links a {
@@ -46,8 +46,8 @@ nav {
 }
 
 .nav-links #logo img {
-	width: 70px;
-	height: 70px;
+	width: 5rem;
+	height: 5rem;
 }
 
 .search-button button {
@@ -55,10 +55,10 @@ nav {
 	background-color: #004d8a;
 	border: 1px solid #cbdce9;
 	border-radius: 50%;
-	padding: 10px;
-	margin-right: 1rem;
-	height: 40px;
-	width: 40px;
+	padding: 1em;
+	margin-right: 1em;
+	height: 3rem;
+	width: 3rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -85,7 +85,7 @@ h3 {
 }
 
 h4 {
-	margin: 0 0 35px 0;
+	margin: 0 0 2.5em 0;
 }
 
 .content-column {
@@ -112,7 +112,7 @@ h4 {
 .apply-button button {
 	border-radius: 40px;
 	background-color: #f2edd5;
-	padding: 10px 32px 10px 32px;
+	padding: 0.8em 2em;
 	margin-top: 1em;
 	font-weight: 900;
 	font-size: 1.2em;
@@ -157,7 +157,7 @@ h2 {
 	font-size: 1.5rem;
 	font-weight: 100;
 	margin-bottom: 0;
-	margin-top: 20px;
+	margin-top: 1em;
 }
 
 .reference-column {
@@ -172,7 +172,7 @@ h2 {
 	flex-direction: row;
 	align-items: center;
 	border-bottom: 1px solid #dddddd;
-	padding: 20px;
+	padding: 1.2em;
 }
 
 .img-container h5,
@@ -181,7 +181,7 @@ h6 {
 }
 
 .img-subtitle {
-	padding-left: 20px;
+	padding-left: 1.2em;
 }
 
 .img-subtitle h5,
@@ -190,7 +190,7 @@ h6 {
 }
 
 .testimony {
-	padding: 20px;
+	padding: 1.2em;
 	color: #5a5a5a;
 	margin: 0;
 	font-size: 1.3rem;
@@ -391,7 +391,7 @@ td {
 	top: 1.5rem;
 	right: 1.5rem;
 	font-size: 2rem;
-	padding: 1rem;
+	padding: 0.8em;
 	cursor: pointer;
 	background-color: #0067af;
 	height: 2.5rem;
@@ -410,7 +410,7 @@ td {
 	display: flex;
 	flex-direction: column;
 	flex: 1;
-	padding: 0 10px;
+	padding: 0 1em;
 }
 
 input,
