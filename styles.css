@@ -13,7 +13,7 @@ button {
 
 header {
 	background: radial-gradient(
-		circle at 65% 60%,
+		circle at 50% 50%,
 		#6182aa,
 		#286598,
 		#165d95,
@@ -106,13 +106,14 @@ h4 {
 	height: 100%;
 	width: 100%;
 	object-fit: contain;
-	transform: translateX(-10%);
+	transform: translateX(10%);
 }
 
 .apply-button button {
 	border-radius: 40px;
 	background-color: #f2edd5;
 	padding: 10px 32px 10px 32px;
+	margin-top: 1em;
 	font-weight: 900;
 	font-size: 1.2em;
 	color: #5a5a5a;
@@ -465,6 +466,7 @@ a {
 	align-items: flex-start;
 	width: 200%;
 	margin-top: 1em;
+	z-index: 1;
 }
 
 .more-questions {
