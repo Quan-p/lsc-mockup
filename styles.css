@@ -24,7 +24,7 @@ header {
 nav {
 	display: flex;
 	align-items: center;
-	padding: 2rem;
+	padding: 2em 2em 0 2em;
 }
 
 .nav-links {
@@ -68,7 +68,7 @@ nav {
 #hero {
 	display: flex;
 	justify-content: flex-start;
-	height: 60vh;
+	height: 62vh;
 }
 
 h1 {
@@ -95,15 +95,18 @@ h4 {
 
 .image-column {
 	overflow: hidden;
-	flex-shrink: 0;
+	flex: 0 0 65%;
 	padding: 0;
 	height: 100%;
+	width: 100%;
+	max-width: fit-content;
 }
 
 .image-column img {
 	height: 100%;
-	width: 65%;
-	object-fit: cover;
+	width: 100%;
+	object-fit: contain;
+	transform: translateX(-10%);
 }
 
 .apply-button button {
@@ -351,16 +354,17 @@ td {
 	/* display: none; */
 	position: fixed;
 	top: 50%;
-	left: 50%;
+	left: 45%;
 	transform: translate(-50%, -50%);
 	z-index: 1;
-	width: 100%;
+	width: 80%;
+	max-width: 70%;
 	background-color: #fff;
 	margin-left: 5em;
 	margin-right: 5em;
 	padding: 20px;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 	border-radius: 8px;
+	border: 1px solid #868686;
 }
 
 .form {
@@ -372,4 +376,40 @@ td {
 	flex-direction: column;
 	flex: 1;
 	padding: 0 10px;
+}
+
+input,
+select {
+	font-size: 1rem;
+	padding: 0.8em;
+	border-radius: 8px;
+	border: 1px solid #dddddd;
+	margin-top: 1em;
+}
+
+.form-column select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-color: #ffffff;
+	background-image: url("data:image/svg+xml;utf8,<svg fill='%239f9f9f' height='30' viewBox='0 0 24 24' width='30' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding: 1em;
+	padding-right: 2em;
+}
+
+input:focus,
+select:focus {
+	border-color: #868686; /* Set the desired highlight color */
+	outline: none; /* Remove the default outline */
+}
+
+option {
+	color: #9f9f9f;
+}
+
+.consent a {
+	color: #176fc5;
+	text-decoration: none;
 }
