@@ -362,7 +362,7 @@ td {
 	background-color: #fff;
 	margin-left: 5em;
 	margin-right: 5em;
-	padding: 20px;
+	padding: 2.5em 2.5em 0;
 	border-radius: 8px;
 	border: 1px solid #868686;
 }
@@ -427,10 +427,11 @@ input:focus,
 select:focus {
 	border-color: #868686; /* Set the desired highlight color */
 	outline: none; /* Remove the default outline */
+	color: #868686;
 }
 
 option {
-	color: #9f9f9f;
+	color: #868686;
 }
 
 .checkbox-container #check-confirm {
@@ -444,7 +445,7 @@ option {
 	color: #9f9f9f;
 }
 
-.consent a {
+a {
 	color: #176fc5;
 	text-decoration: none;
 }
@@ -454,4 +455,14 @@ option {
 	align-items: flex-start;
 	width: 200%;
 	margin-top: 1em;
+}
+
+.more-questions {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #5a5a5a;
+	width: 100%;
+	font-size: 1.2rem;
+	padding: 2em;
 }
