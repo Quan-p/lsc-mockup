@@ -433,7 +433,25 @@ option {
 	color: #9f9f9f;
 }
 
+.checkbox-container #check-confirm {
+	margin-right: 1em;
+	margin-top: 0.5em;
+	transform: scale(1.5);
+}
+
+.consent {
+	display: inline-block;
+	color: #9f9f9f;
+}
+
 .consent a {
 	color: #176fc5;
 	text-decoration: none;
+}
+
+.checkbox-container {
+	display: flex;
+	align-items: flex-start;
+	width: 200%;
+	margin-top: 1em;
 }
