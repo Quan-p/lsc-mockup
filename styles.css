@@ -435,7 +435,7 @@ td {
 
 .bottom-row select {
 	margin-right: 1em;
-	width: calc(33.33% + 3.5em);
+	width: calc(33.33% + 3em);
 }
 
 input,
