@@ -416,6 +416,7 @@ td {
 
 .form {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .form-column {
@@ -423,6 +424,18 @@ td {
 	flex-direction: column;
 	flex: 1;
 	padding: 0 1em;
+}
+
+.bottom-row {
+	display: flex;
+	width: 100%;
+	padding: 0 1em;
+	justify-content: space-between;
+}
+
+.bottom-row select {
+	margin-right: 1em;
+	width: calc(33.33% + 3.5em);
 }
 
 input,
@@ -434,7 +447,7 @@ select {
 	margin-top: 1em;
 }
 
-.form-column select {
+.bottom-row select {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
@@ -476,8 +489,9 @@ a {
 .checkbox-container {
 	display: flex;
 	align-items: flex-start;
-	width: 200%;
+	width: calc(66.66% + 10em);
 	margin-top: 1em;
+	margin-left: 1em;
 	z-index: 1;
 }
 
