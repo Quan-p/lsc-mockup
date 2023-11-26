@@ -27,6 +27,12 @@ nav {
 	padding: 2em 2em 0 2em;
 }
 
+#logo img {
+	width: 5rem;
+	height: 5rem;
+	margin-right: 3em;
+}
+
 .nav-links {
 	list-style: none;
 	display: flex;
@@ -108,7 +114,6 @@ h4 {
 	width: auto;
 	max-width: 90%;
 	max-height: 90%;
-	/* object-fit: contain; */
 	transform: translateX(35%);
 }
 

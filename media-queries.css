@@ -4,7 +4,7 @@
 }
 
 /* Small Devices (Tablets) */
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media only screen and (max-width: 767.98px) {
 	body {
 		margin: 0;
 		padding: 0;
@@ -21,38 +21,85 @@
 	}
 
 	/* Navigation styles */
-	.mobile-menu-icon {
+	#mobile-menu-icon {
 		display: block;
 		cursor: pointer;
+		text-align: end;
 	}
 
-	nav {
-		background-color: #176fc5;
-		padding: 10px;
+	.bar {
+		width: 30px;
+		height: 3px;
+		background-color: #fff;
+		margin: 6px 0;
+		transition: 0.4s;
 	}
 
+	/* Add styles for when the menu is open */
 	.nav-links {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
+		display: none;
+		flex-direction: column;
+		position: absolute;
+		top: 10%; /* Position below the mobile menu icon */
+		right: 0;
+		width: 50%;
+		background-color: #1a3859; /* Set background color for the mobile menu */
+		transition: 0.5s;
+		z-index: 1; /* Ensure it appears above other content */
 	}
 
 	.nav-links li {
-		list-style: none;
+		text-align: center;
+		padding: 1em 1em;
+		margin-right: 0;
+		width: 100%;
+		font-weight: 800;
 	}
 
-	.nav-links a {
-		text-decoration: none;
-		color: #fff;
+	.nav-links li:hover {
+		background-color: #ffffff1a;
 	}
 
-	/* Hamburger menu for small screens */
-	.nav-links {
-		display: none;
+	#search-bar {
+		display: flex;
+		align-items: flex-end;
+		margin-bottom: 2em;
+		margin: 0 1em;
+		padding: 0;
+	}
+
+	#search-bar input {
+		flex: 1;
+		padding: 8px;
+		height: 3rem;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+	}
+
+	#search-bar button {
+		margin-left: 0;
+		height: 3rem;
+		width: 3rem;
+		background-color: #6182aa;
+		color: white;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+	}
+
+	#search-bar button:hover {
+		background-color: #165d95;
+	}
+
+	nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px;
 	}
 
 	.search-button {
-		display: block;
+		display: none;
 	}
 
 	/* Hero section styles */
@@ -72,10 +119,26 @@
 		max-width: 50%;
 		max-height: 50%;
 	}
+
+	/* Stats section styles */
+
+	.stats {
+		flex-direction: column;
+	}
+
+	.reference-column,
+	.salary-column,
+	.job-column {
+		width: 100%;
+	}
 }
 
 @media only screen and (min-width: 768px) {
 	.mobile-menu-icon {
+		display: none;
+	}
+
+	#search-bar {
 		display: none;
 	}
 }
