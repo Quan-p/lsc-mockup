@@ -298,9 +298,11 @@
 							required
 						/>
 						<input
-							type="text"
+							type="date"
 							id="dob"
 							name="dob"
+							onfocus="(this.type='date')"
+							onblur="(this.type='text')"
 							placeholder="Date of Birth*"
 							required
 						/>
