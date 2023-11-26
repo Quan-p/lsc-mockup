@@ -22,3 +22,26 @@ document.addEventListener('DOMContentLoaded', function () {
 		console.error('Element missing.');
 	}
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+	const mobileMenuIcon = document.getElementById('mobile-menu-icon');
+	const navLinksContainer = document.getElementById('nav-links-container');
+
+	// Toggle the existing navigation links when the icon is clicked
+	mobileMenuIcon.addEventListener('click', function () {
+		if (window.innerWidth <= 768) {
+			if (navLinksContainer.style.display === 'flex') {
+				navLinksContainer.style.display = 'none';
+			} else {
+				navLinksContainer.style.display = 'flex';
+			}
+		}
+	});
+
+	// Close the navigation links if the window is resized to a larger size
+	window.addEventListener('resize', function () {
+		if (window.innerWidth > 768) {
+			navLinksContainer.style.display = 'flex';
+		}
+	});
+});
