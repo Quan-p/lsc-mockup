@@ -15,7 +15,7 @@
 	}
 
 	#hero {
-		height: 50vh;
+		height: 65vh;
 	}
 
 	.image-column img {
@@ -36,6 +36,14 @@
 		background-position: 50% 50%;
 		background-size: contain;
 		left: 35%;
+	}
+
+	.modal h2 {
+		margin: 0;
+	}
+
+	.more-questions {
+		padding: 0;
 	}
 }
 /* Mobile Devices styling < 768 */
