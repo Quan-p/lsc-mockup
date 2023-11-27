@@ -51,6 +51,11 @@ nav {
 	text-decoration: none;
 }
 
+.nav-links li a:hover {
+	color: white;
+	transition: 0.1s;
+}
+
 .nav-links #logo img {
 	width: 5rem;
 	height: 5rem;
@@ -69,6 +74,20 @@ nav {
 	justify-content: center;
 	align-items: center;
 	margin-left: auto;
+}
+
+.search-button svg {
+	fill: #cbdce9;
+}
+
+.search-button:hover button {
+	background-color: white;
+	border: 1px solid #004d8a;
+	transition: 0.3s;
+}
+
+.search-button:hover svg {
+	fill: #004d8a;
 }
 
 h1 {
@@ -127,6 +146,12 @@ h4 {
 	color: #5a5a5a;
 	border: none;
 	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.apply-button button:hover {
+	background-color: white;
+	color: #004d8a;
+	transition: 0.3s;
 }
 
 #info {
@@ -224,6 +249,12 @@ h6 {
 	font-weight: 900;
 }
 
+.more-button button:hover {
+	background-color: #fafafa;
+	color: #004d8a;
+	transition: 0.2s;
+}
+
 .learn-button {
 	display: flex;
 	justify-content: center;
@@ -241,6 +272,12 @@ h6 {
 	font-size: 2.5rem;
 	font-weight: 900;
 	margin: 3rem;
+}
+
+.learn-button button:hover {
+	background-color: #fafafa;
+	color: #004d8a;
+	transition: 0.2s;
 }
 
 #program-content {
@@ -320,6 +357,12 @@ td {
 	border-radius: 8px;
 	font-size: 1.1rem;
 	font-weight: 800;
+}
+
+.left-content button:hover {
+	background-color: #fafafa;
+	color: #004d8a;
+	transition: 0.3s;
 }
 
 .right-content {
@@ -412,6 +455,12 @@ td {
 	font-weight: 900;
 	border-radius: 50%;
 	border: 1px solid #003562;
+}
+
+.close:hover {
+	background-color: #fafafa;
+	color: #004d8a;
+	transition: 0.3s;
 }
 
 .form {
