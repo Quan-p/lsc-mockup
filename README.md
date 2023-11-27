@@ -14,3 +14,8 @@ Demo Link: https://quan-p.github.io/lsc-mockup/
 -   Interactive buttons and links
 -   High quality, uncompressed images used
 -   Website is SEO friendly and accessible
+
+## Final Thoughts
+
+-   Performance suffers from using too high quality images, ideally I would use file formats with better compression than PNG, such as WebP and AVIF
+-   Future iterations would be better served using a more efficient approach with React and CSS preprocessor like SASS to prevent such long CSS files
