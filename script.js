@@ -44,4 +44,10 @@ document.addEventListener('DOMContentLoaded', function () {
 			navLinksContainer.style.display = 'flex';
 		}
 	});
+	// Close the navigation links initially if the window is resized to a smaller size
+	window.addEventListener('resize', function () {
+		if (window.innerWidth < 768) {
+			navLinksContainer.style.display = 'none';
+		}
+	});
 });
