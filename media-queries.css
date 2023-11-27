@@ -15,7 +15,7 @@
 	}
 
 	#hero {
-		height: 70vh;
+		height: 60vh;
 	}
 
 	.image-column img {
@@ -46,6 +46,14 @@
 		padding: 0;
 	}
 }
+
+/* Extra Small Phones */
+@media only screen and (max-width: 375px) {
+	#hero {
+		height: 70vh;
+	}
+}
+
 /* Mobile Devices styling < 768 */
 @media (max-width: 767px) {
 	body {
@@ -237,11 +245,12 @@
 	}
 
 	nav {
-		padding: 1.5em 1.5em 0 1.5em;
+		padding: 0.5em 0.5em 0 0.5em;
+		font-size: 0.9rem;
 	}
 
 	#hero {
-		height: 50vh;
+		height: 40vh;
 	}
 
 	h1 {
@@ -255,8 +264,9 @@
 	}
 
 	.image-column {
-		width: 50%;
+		width: 40%;
 		max-width: fit-content;
+		margin-top: 5em;
 	}
 
 	.image-column img {
@@ -306,6 +316,10 @@
 		font-size: 13px;
 	}
 
+	#hero {
+		height: 60vh;
+	}
+
 	.image-column {
 		width: 60%;
 	}
@@ -332,12 +346,3 @@
 		transform: translateX(0);
 	}
 }
-
-/* @media (min-width: 1500px) and (max-width: 2560px) {
-	.image-column img {
-		transform: translateX(20%);
-	}
-	.image-column {
-		background-color: black;
-	}
-} */
